@@ -22,43 +22,6 @@ Binary Search Tree (BST): A binary search tree is used to maintain the catalog o
 based on their ISBN. This tree allows for efficient searching and insertion of books.
 Arrays: An array of struct Book named books is used to store all books added to the catalog. The 
 bookCount variable keeps track of the number of books.
-
-# Diagram
-
-+----------------------------------+
- | Library Catalog System (C) |
- +----------------------------------+
- | |
- | Binary Search Tree |
- | (Catalog) |
- | / \ |
- | Book 1 - ISBN 12345 Book 2 - ISBN 67890
- | / \ / \
- | ... ... ... ...
- | |
- | +--------------------+ |
- | | Hash Table | |
- | | (ISBN-based) | |
- | +--------------------+ |
- | / | |
- | 12345 67890 ... |
- | | | | |
- | | | | |
- | v v v |
- | Book 1 Book 2 ... |
- | |
- +----------------------------------+
- | |
- | +--------------------------+ |
- | | Main Menu | |
- | | | |
- | | 1. Add a Book to Catalog | |
- | | 2. Search by ISBN | |
- | | 3. Display Catalog | |
- | | 4. Exit | |
- | +--------------------------+ |
- | |
- +----------------------------------+
  
 # Example
 
